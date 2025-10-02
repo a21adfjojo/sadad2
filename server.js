@@ -20,7 +20,7 @@ const io = socketio(server);
 // 0. データベース接続とMongooseスキーマ定義
 // =================================================================
 
-const MONGO_URI = process.env.ENV_MONGO_URI || "mongodb+srv://ktyoshitu87_db_user:3137admin@cluster0.ag8sryr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = process.env.ENV_MONGO_URI || "mongodb+srv://sjdkd:ixap8cjk@cluster0.kpyfkho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 if (!MONGO_URI) {
     console.error("FATAL ERROR: MONGO_URI environment variable is not set.");
     process.exit(1);
