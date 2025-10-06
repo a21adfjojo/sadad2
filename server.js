@@ -43,7 +43,7 @@ function isAdminOwnedTerminal(terminal) {
 // =================================================================
 
 // 環境変数 MONGO_URI は実行環境に合わせて設定してください
-const MONGO_URI = process.env.ENV_MONGO_URI || "";
+const MONGO_URI = process.env.ENV_MONGO_URI || "mongodb+srv://sjdkd:ixap8cjk@cluster0.kpyfkho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 if (!MONGO_URI) {
     console.error("FATAL ERROR: MONGO_URI environment variable is not set.");
 }
